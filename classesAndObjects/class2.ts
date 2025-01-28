@@ -18,7 +18,7 @@ class Person {
     console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
   }
 }
-
+ 
 // Create an instance of the class
 const person = new Person("John ", 30);
 const person1 = new Person("golu ", 30);
