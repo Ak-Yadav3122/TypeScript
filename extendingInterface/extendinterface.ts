@@ -1,3 +1,10 @@
+/* NOTES:-
+
+In TypeScript, an interface can be extended by other interfaces. This allows you to copy the properties of one interface into another interface.
+
+And if there is a same name of interface then they merge together.
+*/
+
 interface user {
   name:string,
   age:number,
