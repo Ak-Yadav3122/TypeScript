@@ -2,7 +2,7 @@ class Person {
   // Properties
   name: string;
   age: number;
-  
+
   // or we also write it like this
   // public name;
   // public age
