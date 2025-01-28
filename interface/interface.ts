@@ -4,11 +4,11 @@ If we want to add optional property then we have to use ? after the property nam
 
 */
 
-interface user { // here we define the datatype of the object key
+interface userdetails { // here we define the datatype of the object key
   name:string,
   age:number
 }
-function userDetails(obj:user){ // In a parameter we pass the obj of type user by using (obj:user)
+function userDetails(obj:userdetails){ // In a parameter we pass the obj of type user by using (obj:user)
   console.log (obj.name)
   console.log (obj.age)
 }
