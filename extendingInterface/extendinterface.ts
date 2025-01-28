@@ -8,7 +8,10 @@ interface admin extends user{ // Extending the user interface so that admin inte
   role:string
 }
 function getuser(obj:admin){
-
+  console.log(obj.name)
+  console.log(obj.age)
+  console.log(obj.email)
+  console.log(obj.role)
 }
 const obje = {
   name: 'John',
