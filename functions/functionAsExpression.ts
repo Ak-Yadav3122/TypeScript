@@ -8,17 +8,17 @@ console.log(addNumber(16, 4));
 let subNumber = function (a: number, b: number): number {
   return a - b;
 };
-console.log(addNumber(16, 4));
+console.log(subNumber(16, 4));
 
 let mulNumber = function (a: number, b: number): number {
   return a * b;
 };
-console.log(addNumber(16, 4));
+console.log(mulNumber(16, 4));
 
 let DivNumber = function (a: number, b: number): number {
   return a / b;
 };
-console.log(addNumber(16, 4));
+console.log(DivNumber(16, 4));
 
 
 // adding two string
